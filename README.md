@@ -1,9 +1,11 @@
 This repositry contains ROS package for base mobile robot including: 
 
-`base_discreption` URDF description of the MiR robot
-``base_navigation`` move_base launch and configuration files
-``base_robot ``
-``third_party_sensors``
+```
+base_discreption
+base_navigation
+base_robot
+third_party_sensors
+```
 
 # Preliminaries
 If you haven't already installed ROS on your PC, you need to add the ROS apt repository. This step is necessary for either binary or source install.
