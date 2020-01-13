@@ -1,4 +1,3 @@
-# Base
 # Preliminaries
 If you haven't already installed ROS on your PC, you need to add the ROS apt repository. This step is necessary for either binary or source install.
 
