@@ -43,3 +43,5 @@ You should add the following line to the end of your `~/.bashrc`, and then close
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
+
+![Screenshot from 2019-12-31 16-59-54](https://user-images.githubusercontent.com/36022350/72243048-cb41d300-3625-11ea-9b49-0f24d772e46d.png)
