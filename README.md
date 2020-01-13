@@ -9,14 +9,14 @@ sudo apt-get update -qq
 ## Source install
 For a source install, run the commands below:
 
-# create a catkin workspace
+## create a catkin workspace
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src/
 
-# clone mir_robot into the catkin workspace
+## clone Base_robot into the catkin workspace
 git clone -b https://github.com/Sunspeed-Robotics/Base-Robot.git
 
-# build all packages in the catkin workspace
+## build all packages in the catkin workspace
 source /opt/ros/kinetic/setup.bash
 catkin_init_workspace
 cd ~/catkin_ws
