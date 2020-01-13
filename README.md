@@ -9,7 +9,7 @@ sudo apt-get update -qq
 For a source install, run the commands below:
 
 ## Create a catkin workspace
-mkdir -p ~/catkin_ws/src
+> mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src/
 
 ## Clone base-robot into the catkin workspace
