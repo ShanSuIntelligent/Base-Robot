@@ -5,17 +5,17 @@ If you haven't already installed ROS on your PC, you need to add the ROS apt rep
 wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
 sudo apt-get update -qq
 
-## Source install
+### Source install
 For a source install, run the commands below:
 
-## Create a catkin workspace
+#### Create a catkin workspace
 > mkdir -p ~/catkin_ws/src
 > cd ~/catkin_ws/src/
 
-## Clone base-robot into the catkin workspace
+#### Clone base-robot into the catkin workspace
 > git clone -b https://github.com/Sunspeed-Robotics/Base-Robot.git
 
-## Build all packages in the catkin workspace
+#### Build all packages in the catkin workspace
 > source /opt/ros/kinetic/setup.bash
 > catkin_init_workspace
 > cd ~/catkin_ws
