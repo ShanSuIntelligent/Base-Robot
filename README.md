@@ -1,11 +1,10 @@
-##Base mobile robot
-
-This repositry contains ROS package for base mobile robot including: 
+# Base Robot
+This repositry contains ROS package for base mobile robot it includes: 
 
 ```
 base_discreption
 base_navigation
-base_robot
+base_robot 
 third_party_sensors
 ```
 
