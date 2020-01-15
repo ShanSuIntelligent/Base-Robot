@@ -48,8 +48,24 @@ source ~/catkin_ws/devel/setup.bash
 
 # ROS2 control 
 ## Using ROS1_bridge
+
+In first shell you need to source ros1 
+```
+source /opt/ros/melodic/setup.bash
+```
+
+In second shell source ros2
+```
+source /opt/ros/dashing/setup.bash
+```
+
+Run ros1_bridge in third shell 
 ```
 ros2 launch ros1_bridge dynamic_bridge
+```
+
+Run state_publisher.py
+```
 ros2 launch ir100_discreption ir100_state_publish.py
 ```
 
