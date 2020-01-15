@@ -46,7 +46,7 @@ source ~/catkin_ws/devel/setup.bash
 
 ![Screenshot from 2019-12-31 16-59-54|512x397](https://user-images.githubusercontent.com/36022350/72243048-cb41d300-3625-11ea-9b49-0f24d772e46d.png)
 
-# ROS2 control 
+# ros2 control 
 ## Using ros1_bridge
 
 In first shell you need to source ros1 
