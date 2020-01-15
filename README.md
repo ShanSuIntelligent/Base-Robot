@@ -63,6 +63,7 @@ Run ros1_bridge in third shell
 ```
 ros2 launch ros1_bridge dynamic_bridge
 ```
+![Screenshot from 2019-12-31 16-55-gfd30](https://user-images.githubusercontent.com/36022350/72399948-a151f300-3782-11ea-8585-d5a8409b623e.png)
 
 Run state_publisher.py
 ```
@@ -70,4 +71,5 @@ ros2 launch ir100_discreption ir100_state_publish.py
 ```
 
 ![Screenshot from 2019-12-31 16-58-401](https://user-images.githubusercontent.com/36022350/72243210-4905de80-3626-11ea-8a12-524b862c6b86.png)
-![Screenshot from 2019-12-31 16-58-401](https://user-images.githubusercontent.com/36022350/72243500-13adc080-3627-11ea-9c69-2465639b0fbb.png)
+
+
