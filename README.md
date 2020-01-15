@@ -43,7 +43,15 @@ You should add the following line to the end of your `~/.bashrc`, and then close
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
+
 ![Screenshot from 2019-12-31 16-59-54|512x397](https://user-images.githubusercontent.com/36022350/72243048-cb41d300-3625-11ea-9b49-0f24d772e46d.png)
+
+# ROS2 control 
+## Using ROS1_bridge
+```
+ros2 launch ros1_bridge dynamic_bridge
+ros2 launch ir100_discreption ir100_state_publish.py
+```
+
 ![Screenshot from 2019-12-31 16-58-401](https://user-images.githubusercontent.com/36022350/72243210-4905de80-3626-11ea-8a12-524b862c6b86.png)
 ![Screenshot from 2019-12-31 16-58-401](https://user-images.githubusercontent.com/36022350/72243500-13adc080-3627-11ea-9c69-2465639b0fbb.png)
-
