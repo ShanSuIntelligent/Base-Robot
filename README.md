@@ -43,11 +43,43 @@ You should add the following line to the end of your `~/.bashrc`, and then close
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
+# ros2 control 
+
+### launch the base driver
+
+```
+source /opt/ros/melodic/setup.bash
+cd ~/catkine_ws/
+source devel/setup.bash
+roslaunch ir100_driver ir100_driver.launch
+```
+### launch the LIDAR node
+
+```
+roslaunch sick_sim 
+```
+
+### Teleop
+
+```
+./teleop.py
+```
+
+### launch gmapping node
+
+```
+roslaunch ir100_navigation gmapping_node.launch
+```
+### run the simulation rviz2 
+```
+source /opt/ros/dashing/setup.bash
+ros2 run rviz2 rviz2
+```
 
 ![Screenshot from 2019-12-31 16-59-54|512x397](https://user-images.githubusercontent.com/36022350/72243048-cb41d300-3625-11ea-9b49-0f24d772e46d.png)
 
-# ros2 control 
-## Using ros1_bridge
+
+## run ros1_bridge node
 
 In first shell you need to source ros1 
 ```
@@ -65,7 +97,7 @@ ros2 launch ros1_bridge dynamic_bridge
 ```
 ![Screenshot from 2019-12-31 16-55-gfd30](https://user-images.githubusercontent.com/36022350/72399948-a151f300-3782-11ea-8585-d5a8409b623e.png)
 
-Run state_publisher.py
+### Run state_publisher.py node
 ```
 ros2 launch ir100_discreption ir100_state_publish.py
 ```
