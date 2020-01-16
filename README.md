@@ -7,7 +7,7 @@ This repositry contains ROS package for base mobile robot it includes:
 
 `base_robot` 
 
-`third_party_sensors`
+`third_party_sensors` LIADR Package
 
 
 # Preliminaries
@@ -93,7 +93,7 @@ source /opt/ros/dashing/setup.bash
 
 Run ros1_bridge in third shell 
 ```
-ros2 launch ros1_bridge dynamic_bridge
+ros2 run ros1_bridge dynamic_bridge
 ```
 ![Screenshot from 2019-12-31 16-55-gfd30](https://user-images.githubusercontent.com/36022350/72399948-a151f300-3782-11ea-8585-d5a8409b623e.png)
 
