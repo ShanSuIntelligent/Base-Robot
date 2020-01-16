@@ -90,14 +90,14 @@ In second shell source ros2
 ```
 source /opt/ros/dashing/setup.bash
 ```
-### Run state_publisher.py node
+##### Run state_publisher.py node
 ```
 ros2 launch ir100_discreption ir100_state_publish.py
 ```
 
 ![Screenshot from 2019-12-31 16-58-401](https://user-images.githubusercontent.com/36022350/72243210-4905de80-3626-11ea-8a12-524b862c6b86.png)
 
-Run ros1_bridge in third shell 
+##### Run ros1_bridge in third shell 
 ```
 ros2 run ros1_bridge dynamic_bridge
 ```
