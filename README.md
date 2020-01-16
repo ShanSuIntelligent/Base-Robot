@@ -81,12 +81,12 @@ ros2 run rviz2 rviz2
 
 ## run ros1_bridge node
 
-In first shell you need to source ros1 
+##### In first shell you need to source ros1 
 ```
 source /opt/ros/melodic/setup.bash
 ```
 
-In second shell source ros2
+##### In second shell source ros2
 ```
 source /opt/ros/dashing/setup.bash
 ```
